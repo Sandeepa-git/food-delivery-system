@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraveWave - Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-utensils"></i> CraveWave
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="#" class="btn-secondary">Log In</a>
+            <a href="#" class="btn-primary">Sign Up</a>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Delicious Food,<br>Delivered To <span class="highlight">You</span>.</h1>
+            <p>Order from your favorite restaurants and get it delivered to your doorstep in minutes.</p>
+            <div class="search-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Enter your delivery location...">
+                <button class="btn-primary">Find Food</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="number">10k+</span>
+                    <span class="text">Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">500+</span>
+                    <span class="text">Restaurants</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">30m</span>
+                    <span class="text">Delivery</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Delicious Pizza">
+            <div class="floating-card c1">
+                <i class="fas fa-star"></i>
+                <div class="info">
+                    <h4>Top Rated</h4>
+                    <p>Best quality food</p>
+                </div>
+            </div>
+            <div class="floating-card c2">
+                <i class="fas fa-clock"></i>
+                <div class="info">
+                    <h4>Fast Delivery</h4>
+                    <p>Under 30 mins</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section id="menu" class="categories">
+        <h2 class="section-title">Explore by <span class="highlight">Category</span></h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="icon-bg" style="background-color: #ffeaa7;"><i class="fas fa-hamburger" style="color: #fdcb6e;"></i></div>
+                <h3>Burgers</h3>
+                <p>Juicy & Grilled</p>
+            </div>
+            <div class="category-card">
+                <div class="icon-bg" style="background-color: #fab1a0;"><i class="fas fa-pizza-slice" style="color: #e17055;"></i></div>
+                <h3>Pizza</h3>
+                <p>Cheesy Delight</p>
+            </div>
+            <div class="category-card">
+                <div class="icon-bg" style="background-color: #81ecec;"><i class="fas fa-fish" style="color: #00cec9;"></i></div>
+                <h3>Sushi</h3>
+                <p>Fresh & Raw</p>
+            </div>
+            <div class="category-card">
+                <div class="icon-bg" style="background-color: #a29bfe;"><i class="fas fa-ice-cream" style="color: #6c5ce7;"></i></div>
+                <h3>Desserts</h3>
+                <p>Sweet Treats</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Items -->
+    <section class="popular">
+        <h2 class="section-title">Popular <span class="highlight">Now</span></h2>
+        <div class="food-grid">
+            <div class="food-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Burger">
+                    <span class="tag">Free Delivery</span>
+                </div>
+                <div class="card-body">
+                    <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+                    <h3>Classic Cheese Burger</h3>
+                    <p>Flame grilled beef patty with cheese.</p>
+                    <div class="price-row">
+                        <span class="price">$12.99</span>
+                        <button class="add-btn"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pizza">
+                    <span class="tag">Hot</span>
+                </div>
+                <div class="card-body">
+                    <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+                    <h3>Pepperoni Feast</h3>
+                    <p>Loaded with double pepperoni.</p>
+                    <div class="price-row">
+                        <span class="price">$15.50</span>
+                        <button class="add-btn"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sushi">
+                </div>
+                <div class="card-body">
+                    <div class="rating"><i class="fas fa-star"></i> 4.7</div>
+                    <h3>Sushi Platter</h3>
+                    <p>Assorted fresh sushi rolls.</p>
+                    <div class="price-row">
+                        <span class="price">$22.00</span>
+                        <button class="add-btn"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Download our App</h2>
+            <p>Get food faster and easier with the CraveWave mobile app.</p>
+            <div class="app-buttons">
+                <button class="btn-store"><i class="fab fa-apple"></i> App Store</button>
+                <button class="btn-store"><i class="fab fa-google-play"></i> Google Play</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>CraveWave</h3>
+                <p>Delivering happiness to your doorstep.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CraveWave. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

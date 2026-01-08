@@ -1,0 +1,47 @@
+CSS2311 Human Factors in Computer Systems - Lab 6 Report Data
+
+-------------------------------------------------------
+ACTIVITY 1: HOMEPAGE INTERFACE DESIGN
+-------------------------------------------------------
+
+TOPIC: Food Delivery Website ("CraveWave")
+
+COLOUR SCHEME UTILISED:
+1. Primary Colour: #FF4757 (Radical Red/Sunset Orange)
+2. Secondary Colour: #2ED573 (UFO Green)
+3. Background Colour: #F1F2F6 (Anti-Flash White)
+4. Text Colour: #2F3542 (Dark Slate)
+5. Call to Action (CTA): #FF4757
+
+JUSTIFICATION (Explanation):
+I selected this colour scheme based on the psychology of food marketing. The primary colour, a vibrant reddish-orange (#FF4757), was chosen because red creates a sense of urgency and stimulates appetite, which is crucial for a food delivery platform. It also draws attention to key action buttons like "Order Now" or "Sign Up". To balance this, I used a fresh green (#2ED573) as a secondary accent colour to evoke feelings of freshness, health, and natural ingredients, putting users at ease about food quality. The background is a very light grey (#F1F2F6) rather than pure white, which reduces eye strain while maintaining a clean, sanitary look typical of modern food apps. Dark slate text (#2F3542) ensures high readability (contrast) without the harshness of pitch black, offering a premium and friendly user experience.
+
+-------------------------------------------------------
+ACTIVITY 2: INTERFACE & TYPOGRAPHY DESCRIPTION
+-------------------------------------------------------
+
+(Ensure you attach the Reference Image provided in the 'artifacts' folder of the AI response or the generated preview image)
+
+TYPOGRAPHY ANALYSIS:
+
+1. Font Family:
+The interface utilises a geometric Sans-Serif font family (likely 'Poppins', 'Inter', or 'Roboto'). Sans-serif fonts are standard for modern web interfaces because they are clean, legible at small sizes, and render well on digital screens. They convey a sense of modernity and simplicity, which aligns with the "fast and easy" nature of food delivery.
+
+2. Font Size Hierarchy:
+There is a clear visual hierarchy established through size.
+- Headings (H1): Large and bold (e.g., "Delicious Food, Delivered"), acting as the primary hook.
+- Subheadings (H2/H3): Slightly smaller but heavy weight (e.g., "Popular Now", "Explore by Category"), guiding the user through sections.
+- Body Text: Smaller size (approx. 16px), regular weight, used for descriptions.
+- Micro-copy: Smallest size (e.g., "30 mins", "Free Delivery"), used for metadata.
+
+3. Font Weight & Emphasis:
+The design uses font weight effectively to differentiate heirarchy. Bold weights (600, 700) are reserved for prices, ratings, and call-to-action buttons to make them pop. Regular weights (400) are used for standard text. This contrast captures the user's eye on the most important information: "What is it?" and "How much does it cost?".
+
+4. Line Spacing & Readability:
+The body text features loose line spacing (approx. 1.5 - 1.6), preventing the text from feeling cramped. This "whitespace" improves readability, allowing the user to scan menus and descriptions quickly without feeling overwhelmed.
+
+5. Contrast:
+The text adheres to high contrast accessibility standards. The dark text against the light card backgrounds ensures that the content is legible for all users, including those with visual impairments. The use of colour (e.g., orange for prices) against neutral text creates focal points that guide the user's spending decisions.
+
+CONCLUSION on UX:
+The typography choices here directly improve the User Experience (UX) by reducing cognitive load. The clear hierarchy allows users to scan the page and find what they want (pizza, rating, price) in milliseconds. The friendly, round sans-serif font makes the brand feel approachable, while the structured alignment builds trust and professionalism.
